@@ -92,7 +92,7 @@ function SideBar() {
           >
             <GiHamburgerMenu size={20} />
           </button>
-          {isSidebarOpen ? <h1>ANUBHUTI</h1> : null}
+          {isSidebarOpen ? <h1>Givewise</h1> : null}
         </div>
 
         <div className="sidebar-wrapper_links_container">

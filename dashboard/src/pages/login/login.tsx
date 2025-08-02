@@ -15,8 +15,8 @@ const Login: React.FC = () => {
   const dispatch = useDispatch();
 
   const initialValues = {
-    mobile: "",
-    password: "",
+    mobile: "9340233410",
+    password: "123456",
   };
 
   const handleSubmit = async (
@@ -66,20 +66,23 @@ const Login: React.FC = () => {
   useEffect(() => {
     if (inputRef.current) {
       inputRef.current.focus();
+      inputRef.current.value = initialValues.mobile;
     }
   }, []);
 
   return (
     <div className="bg-white h-screen flex">
-      <div className="bg-gradient-to-t from-secondaryColor-hover to-secondaryColor text-white p-8 w-1/3 flex flex-col justify-center items-center">
-        <h1 className="text-2xl font-bold mb-4">Anubhuti Seva Santhan</h1>
+      <div className="bg-gradient-to-t from-secondaryColor-hover to-secondaryColor text-white p-8 w-1/3 flex flex-col justify-center items-start">
+        <h1 className="text-2xl font-bold mb-4">
+          GiveWise Donation Management CRM
+        </h1>
         <p className="text-sm mb-6">
-          Allow Microsoft to access your browser web content to enable chat
-          responses, page summaries, and more.
+          GiveWise is your smart donation tracking partner. Here, you can easily
+          manage all donation records
         </p>
         <Link
           to="/register"
-          className="bg-white text-black px-6 py-2 rounded font-semibold w-fit text-xs"
+          className="bg-white text-black px-6 py-2 rounded font-semibold w-fit text-xs "
         >
           Register
         </Link>
@@ -141,12 +144,12 @@ const Login: React.FC = () => {
                 </div>
 
                 {/* <div className="mt-6"> */}
-                <Link
+                {/* <Link
                   to="/forgotPassword"
                   className="text-secondaryColor text-sm font-semibold underline"
                 >
                   Forgot Password
-                </Link>
+                </Link> */}
                 <button
                   type="submit"
                   className="normal-button-bg-secondary w-full mt-3 p-2 rounded-md"

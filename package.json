@@ -1,6 +1,6 @@
 {
-  "name": "electron-js",
-  "version": "1.0.9",
+  "name": "Givewise",
+  "version": "1.0.10",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -15,14 +15,14 @@
     "pack": "electron-builder --dir",
     "dist": "electron-builder"
   },
-  "repository": "https://github.com/lovesinghkalbhor/anubhuti-dashboard-frontend",
+  "repository": "https://github.com/lovesinghkalbhor/GiveWise_Donation",
   "publish": {
     "provider": "github",
     "releaseType": "release"
   },
   "build": {
-    "appId": "com.anubhuti.id",
-    "productName": "Anubhuti-vision-seva-sansthan",
+    "appId": "com.givewise.id",
+    "productName": "GiveWise",
     "files": [
       "main.js",
       "preload.js",
@@ -60,7 +60,7 @@
       "createDesktopShortcut": true
     }
   },
-  "author": "Growthify services",
+  "author": "Givewise",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.7",

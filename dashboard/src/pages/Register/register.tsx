@@ -68,11 +68,14 @@ const Register: React.FC = () => {
   return (
     <div className="bg-white h-screen  flex">
       {/* Left Section */}
-      <div className="  bg-gradient-to-t from-secondaryColor-hover to-secondaryColor  text-white p-8  w-1/3 flex flex-col justify-center items-center">
-        <h1 className="text-2xl font-bold mb-4">Anubhuti Seva Santhan</h1>
+      <div className="  bg-gradient-to-t from-secondaryColor-hover to-secondaryColor  text-white p-8  w-1/3 flex flex-col justify-center items-start">
+        <h1 className="text-2xl font-bold mb-4">
+          {" "}
+          GiveWise Donation Management CRM
+        </h1>
         <p className="text-sm mb-6">
-          Allow Microsoft to access your browser web content to enable chat
-          responses, page summaries, and more.
+          GiveWise is your smart donation tracking partner. Here, you can easily
+          manage all donation records
         </p>
         <Link
           to={"/login"}

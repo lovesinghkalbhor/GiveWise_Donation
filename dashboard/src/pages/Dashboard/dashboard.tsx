@@ -18,7 +18,7 @@ function Dashboard() {
             onClick={() => setisDonationType("money")}
           >
             {" "}
-            Donation in Money
+            Cash / Online Donation
           </button>
           <button
             className={`${
@@ -27,7 +27,7 @@ function Dashboard() {
             onClick={() => setisDonationType("imps")}
           >
             {" "}
-            Donation in IMPS
+            IMPS
           </button>
           <button
             className={`${
@@ -36,7 +36,7 @@ function Dashboard() {
             onClick={() => setisDonationType("kinds")}
           >
             {" "}
-            Donation in Kinds
+            Material Donation
           </button>{" "}
         </div>
         <hr className=" border-slate-400 mt-2"></hr>

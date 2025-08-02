@@ -3,11 +3,11 @@ const { app, BrowserWindow, ipcMain, dialog } = require('electron');
 const path = require('node:path');
 const keytar = require('keytar');
 require('dotenv').config();
-const { autoUpdater, AppUpdater } = require("electron-updater")
+const { autoUpdater } = require("electron-updater")
 
 autoUpdater.autoDownload = false;
 autoUpdater.autoInstallOnAppQuit = true;
-const SERVICE_NAME = "AnubhutiSevaSansthanApp";
+const SERVICE_NAME = "GiveWise";
 const ACCOUNT_NAME = "accessToken";
 
 
@@ -20,7 +20,7 @@ const createWindow = () => {
         minHeight: 600,
         maxHeight: 800,
         maxWidth: 1400,
-        title: "Anubhuti vision seva sansthan",
+        title: "Give wise",
         webPreferences: {
             contextIsolation: true,
             nodeIntegration: false,

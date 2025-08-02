@@ -15,7 +15,7 @@ function DonationList() {
               onClick={() => setisDonationListTypeMoney(true)}
             >
               {" "}
-              Donation in money
+              Cash / Online Donation / IMPS
             </button>
             <button
               className={`${
@@ -24,7 +24,7 @@ function DonationList() {
               onClick={() => setisDonationListTypeMoney(false)}
             >
               {" "}
-              Donation in kinds
+              Material Donation
             </button>{" "}
           </div>
           <hr className=" border-slate-400 mt-2"></hr>
